@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>AplicationUnitTest</name>
+	<name>AplicacionUnitTest</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -18,7 +18,13 @@
 		<link>
 			<name>test</name>
 			<type>2</type>
-			<locationURI>PARENT_LOC/Aplicacion/test</locationURI>
+			<locationURI>copy_PARENT_LOC/Aplicacion/test</locationURI>
 		</link>
 	</linkedResources>
+	<variableList>
+		<variable>
+			<name>copy_PARENT_LOC</name>
+			<value>$%7BPARENT-1-PROJECT_LOC%7D/AplicationUnitTest</value>
+		</variable>
+	</variableList>
 </projectDescription>
