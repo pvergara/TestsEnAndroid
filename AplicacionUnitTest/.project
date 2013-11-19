@@ -18,13 +18,7 @@
 		<link>
 			<name>test</name>
 			<type>2</type>
-			<locationURI>copy_PARENT_LOC/Aplicacion/test</locationURI>
+			<locationURI>PARENT_LOC/Aplicacion/test</locationURI>
 		</link>
 	</linkedResources>
-	<variableList>
-		<variable>
-			<name>copy_PARENT_LOC</name>
-			<value>$%7BPARENT-1-PROJECT_LOC%7D/AplicationUnitTest</value>
-		</variable>
-	</variableList>
 </projectDescription>
