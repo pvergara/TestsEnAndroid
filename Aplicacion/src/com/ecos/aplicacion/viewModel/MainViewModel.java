@@ -4,6 +4,10 @@ public class MainViewModel {
 
 	private String mPalabraDelJuego;
 
+	public void iniciarJuegoConLaPalabra(String palabraDelJuego){
+		mPalabraDelJuego = palabraDelJuego;		
+	}
+	
 	public boolean jugarCon(String letra) {
 		if (mPalabraDelJuego.contains(letra))
 			return true;
