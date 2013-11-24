@@ -11,7 +11,7 @@ import com.ecos.aplicacion.R;
 import com.xtremelabs.robolectric.RobolectricTestRunner;
 
 @RunWith(RobolectricTestRunner.class)
-public class MainActivityTest {
+public class MyFirstRobolectricTest {
 
 	@Test
 	public void shouldHaveHappySmiles() throws Exception {
