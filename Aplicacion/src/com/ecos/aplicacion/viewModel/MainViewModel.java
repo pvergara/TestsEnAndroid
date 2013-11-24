@@ -11,8 +11,5 @@ public class MainViewModel {
 			return false;
 	}
 
-	public void iniciarJuegoConLaPalabra(String palabraDelJuego) {
-		mPalabraDelJuego = palabraDelJuego;
-	}
 
 }
