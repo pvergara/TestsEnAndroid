@@ -9,8 +9,19 @@
     tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/txtLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtLabel"
+        android:layout_marginTop="14dp"
+        android:text="@string/pulsame"
+        android:onClick="btnClickOnClick" />
 
 </RelativeLayout>

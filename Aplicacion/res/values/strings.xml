@@ -4,5 +4,7 @@
     <string name="app_name">Aplicacion</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="pulsame">Púlsame</string>
+    <string name="hola_caracola">Hola Caracola</string>
 
 </resources>
