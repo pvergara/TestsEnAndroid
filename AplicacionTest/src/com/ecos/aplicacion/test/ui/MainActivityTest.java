@@ -24,8 +24,7 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
 
 		mSolo.clickOnButton(mSolo.getString(R.string.pulsame));
 		
-		TextView label = (TextView) mSolo.getCurrentActivity().findViewById(R.id.txtLabel);
-		Assert.assertEquals(mSolo.getString(R.string.hola_caracola),label.getText().toString());
+		mSolo.waitForText(mSolo.getString(R.string.hola_caracola));
 
 	}
 
