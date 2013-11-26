@@ -1,8 +1,6 @@
 package com.ecos.aplicacion.test.ui;
 
-import junit.framework.Assert;
 import android.test.ActivityInstrumentationTestCase2;
-import android.widget.TextView;
 
 import com.ecos.aplicacion.MainActivity;
 import com.ecos.aplicacion.R;
