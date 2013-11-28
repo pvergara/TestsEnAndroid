@@ -17,7 +17,7 @@ public class MainViewModel {
 		mContadorFallos = 0;
 		mPalabraOculta = generarPalabraOcultaDesde(palabraDelJuego,' ');
 	}
-
+	
 	private String generarPalabraOcultaDesde(String palabraDelJuego, char letraUsada) {
 		String resultado = "";
 		for(char letra:mPalabraDelJuego.toCharArray()){
